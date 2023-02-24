@@ -1,0 +1,9 @@
+[2023-02-24 13:00:45 +0000] [63511] [INFO] Starting gunicorn 20.1.0
+[2023-02-24 13:00:45 +0000] [63511] [INFO] Listening at: http://172.31.6.84:6006 (63511)
+[2023-02-24 13:00:45 +0000] [63511] [INFO] Using worker: sanic.worker.GunicornWorker
+[2023-02-24 13:00:45 +0000] [63514] [INFO] Booting worker with pid: 63514
+[2023-02-24 13:05:33 +0000] [63511] [INFO] Handling signal: term
+[2023-02-24 13:05:33 +0000] [63514] [INFO] Stopping server: 63514, connections: 0
+[2023-02-24 13:05:33 +0000] [63514] [INFO] Error while closing socket [Errno 9] Bad file descriptor
+[2023-02-24 13:05:33 +0000] [63514] [INFO] Worker exiting (pid: 63514)
+[2023-02-24 13:05:34 +0000] [63511] [INFO] Shutting down: Master

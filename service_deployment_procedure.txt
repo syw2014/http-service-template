@@ -1,0 +1,10 @@
+1. 拷贝服务器204的/home/ty.lu/ai_nlp_techs文件夹下所有的文件，到待部署服务的服务器。
+2. 安装requirements.txt下的python库。
+3. 修改service/nlp_techs.py文件，修改内容如下：
+     a. 修改eureka_ip_port。修改成线上环境服务注册中心对应信息。
+     b. 修改service_ip，改成当前服务器ip。
+     c. 可选，非必须：修改service_port，例如改为xxxx.同时，修改utils/log/log_socket_sender.py里的log_service_port参数为xxxx0，其中xxxx与service_port相同.
+4. 启动服务
+    sh -x start.sh
+5. 停止服务
+    sh -x stop.sh
